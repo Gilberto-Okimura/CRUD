@@ -29,5 +29,5 @@ public interface RepositoryOfTopic extends JpaRepository<Topico, Long> {
     """)
     List<TopicoDTO> listarTopicosComCurso();
 
-    // O findById padrão já existe no JpaRepository, não precisa declarar.
+
 }

@@ -20,7 +20,7 @@ public class Perfil{
         @NotNull
         private String name;
 
-    @OneToMany(mappedBy = "perfisList")
+    @OneToMany(mappedBy = "perfis")
     private List<Usuario> userlist  = new ArrayList<>();   ;
 
 }

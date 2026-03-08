@@ -65,7 +65,7 @@ public class Topico {
     @OneToMany(mappedBy = "topico")
     private List<Resposta> respostas = new ArrayList<>();
 
-    public void putInfo(@Valid TopicoDTOPUT topicoDTOPUT) {
+    public void putInfo(@Valid TopicoDTOPUT topicoDTOPUT) { //pega informação para o put
         if (topicoDTOPUT.status() == true) {
             this.status = true;
         }

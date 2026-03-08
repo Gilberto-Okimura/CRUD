@@ -3,7 +3,8 @@ package Crud.ModelsAndDTO;
 import jakarta.validation.constraints.NotNull;
 
 public record TopicoDTOPUT(
-        @NotNull
+
+                             @NotNull
                             Long id,
                             String titulo,
                             String corpo,
